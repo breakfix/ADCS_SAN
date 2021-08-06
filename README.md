@@ -10,4 +10,4 @@ Ex Android Dev (@ExAndroidDev)
 
 # Usage
 
-    python ADCS_SAN.py -s http://ADCS-Server -u ADusername -p 'password' -d ADdomain -t template -i impersonate_user -o 'pfx password'
+    python adcs_san.py -s http://ADCS-Server -u ADusername -p 'password' -d ADdomain -t template -i impersonate_user -o 'pfx password'
