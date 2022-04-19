@@ -7,7 +7,10 @@ Makes use of existing code added to SecureAuthCorp's Impacket library by the bel
 Alberto Solino (@agsolino)
 Dirk-jan Mollema (@_dirkjan) / Fox-IT (https://www.fox-it.com)
 Ex Android Dev (@ExAndroidDev)
+@TheXC3LL for NTLM pth support
 
 # Usage
 
     python adcs_san.py -s http://ADCS-Server -u ADusername -p 'password' -d ADdomain -t template -i impersonate_user -o 'pfx password'
+
+NTLM pass-the-hash is supported via the `--hash` flag where the value of `-p` is an NTLM hash.
