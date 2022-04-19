@@ -7,7 +7,7 @@ Makes use of existing code added to SecureAuthCorp's Impacket library by the bel
 Alberto Solino (@agsolino)
 Dirk-jan Mollema (@_dirkjan) / Fox-IT (https://www.fox-it.com)
 Ex Android Dev (@ExAndroidDev)
-@TheXC3LL for NTLM pth support
+Juan Manuel Fernández @TheXC3LL for adding NTLM pth support
 
 # Usage
 
