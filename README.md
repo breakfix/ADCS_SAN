@@ -1,6 +1,6 @@
 # ADCS_SAN.py
 
-Request a certificate from AD CS using a user supplied Subject Alternative Name (SAN).
+Request a certificate from AD CS using a user supplied Subject Alternative Name (SAN). This will build a CSR to be submitted directly to the AD CS web enrollment endpoint over HTTP.
 
 Makes use of existing code added to SecureAuthCorp's Impacket library by the below authors as well as the attacks and techniques outline by SpecterOps in their paper [Certified Pre-Owned](https://www.specterops.io/assets/resources/Certified_Pre-Owned.pdf).
 
